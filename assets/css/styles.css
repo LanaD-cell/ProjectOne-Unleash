@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #046e94;
+    background-color: white;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -30,8 +30,8 @@ header {
 }
 
 header a {
-    text-decoration: dashed;
-    color: white;
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 
 /* Main */
 main {
-    background-color: #ffffff;
+    background-color: #046e94;
     /* Make element take up surplus space to push footer down */
     flex: 1 0 auto;
 }
