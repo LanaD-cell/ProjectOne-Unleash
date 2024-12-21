@@ -105,7 +105,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/Main\ Pic.jpg) no-repeat center center/cover;
+    background: url(../images/main-pic.png) no-repeat center center/cover;
     position: relative;
 
 }
@@ -115,7 +115,7 @@ main {
     background-color: rgba(255, 160, 0, 0.64);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    top: 30px;
     width: 60%;
     min-height: 200px;
     padding-top: 40px;
