@@ -18,6 +18,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 
 /* Header */
 header {
@@ -91,11 +100,19 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
 /* Hero section */
 #hero {
-    height: 100vh;
+    height: 600px;
     width: 100%;
     background: url(../images/Main\ Pic.jpg) no-repeat center center/cover;
+
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent*/
+    background-color: rgba(255, 160, 0, 0.64);
+    font-size: 130%;
 
 }
 
