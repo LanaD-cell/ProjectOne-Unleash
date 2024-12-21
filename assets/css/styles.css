@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -18,15 +18,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    font-family: "Lato", sans-serif;
-    text-transform: lowercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 /* Header */
 header {
-    background-color: white;
+    background-color: #046e94;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -36,9 +31,15 @@ header {
 
 header a {
     text-decoration: dashed;
-    color: inherit;
+    color: white;
 }
 
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 /* Main */
 main {
