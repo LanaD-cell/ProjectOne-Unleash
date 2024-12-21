@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Roboto:wght@700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -12,12 +15,17 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-
+    font-family: "Roboto", sans-serif;
 }
+
 
 /* Header */
 header {
     background-color: #ffd700;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
 }
 
 /* Main */
