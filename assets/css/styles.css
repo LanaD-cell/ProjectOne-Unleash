@@ -98,8 +98,9 @@ footer {
     background-color: #ffa500;
 }
 
-/* media query: tablets and larger (768px and up)v*/
+/* Media query: tablets and larger (768px and up)v*/
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -113,7 +114,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -132,6 +133,11 @@ footer {
         /* Push main content down to accomodate larger header*/
         margin-top: 79px;
     }
-} 
 
-
+    /* Larger devices(laptops and desktops 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #252525;
+        }
+    }
+}
