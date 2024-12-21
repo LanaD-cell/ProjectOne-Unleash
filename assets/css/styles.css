@@ -107,7 +107,6 @@ main {
     width: 100%;
     background: url(../images/main-pic.png) no-repeat center center/cover;
     position: relative;
-    
 
 }
 
@@ -191,4 +190,5 @@ main {
             border-bottom: 1px solid #252525;
         }
     }
+    
 }
