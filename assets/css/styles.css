@@ -47,6 +47,15 @@ h1 {
     list-style-type: none;
 }
 
+#menu > li {
+    margin-bottom: 1rem;
+
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
+
 /* Main */
 main {
     background-color: #046e94;
