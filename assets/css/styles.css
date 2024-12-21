@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 4px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -47,7 +50,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1rem;
 
 }
@@ -65,7 +68,6 @@ nav {
     width: 100%;
     box-shadow: 0 1px 4px #3a3a3a;
     display: none;
-    
 
 }
 
