@@ -26,7 +26,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 4px lightslategray;
+    box-shadow: 0 1px 4px #3a3a3a;
 }
 
 header a {
@@ -54,6 +54,19 @@ h1 {
 
 .active {
     border-bottom: 1px solid #252525;
+}
+
+/* Navbar stles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: white;
+    padding: 0 1rem;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px #3a3a3a;
+    display: none;
+    
+
 }
 
 /* Main */
