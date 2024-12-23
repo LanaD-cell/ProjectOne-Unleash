@@ -44,13 +44,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-
-}
 
 #menu {
     font-size: 110%;
@@ -59,7 +52,7 @@ h1 {
 }
 
 #menu>li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 
 }
 
@@ -67,7 +60,7 @@ h1 {
     border-bottom: 1px solid #252525;
 }
 
-/* Navbar stles with dropdown toggle */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: white;
@@ -104,11 +97,11 @@ main {
 #hero {
     height: 1000px;
     width: 100%;
-    background: url(../images/main-image.jpeg) no-repeat center center/cover;
+    background: url(../images/main-image.jpeg) no-repeat center center / cover;
     position: relative;
     border-bottom: 10px solid #2f556b;
     border-top: 10px solid #ffa500;
-    margin-top: 22px;
+    margin-top: 16px;
 }
 
 #cover-text {
@@ -143,18 +136,14 @@ main {
 
 }
 
-#reasons h1 {
+#reasons h2 {
 
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
-#reasons h2 {
-    margin-left: 16px;
-}
-
-#benefit-owner>div,
+#benefits-owner>div,
 #benefits-dogs>div {
     line-height: 20px;
     margin-bottom: 20px;
@@ -164,7 +153,6 @@ main {
 
 #benefits p {
     padding: 0 20px;
-    font-size: 150%;
 }
 
 
@@ -178,9 +166,10 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    /* Make square img a circle */
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 600px;
+    max-height: 600px;
 }
 
 #benefits-image {
@@ -204,7 +193,7 @@ main {
     color: #3a3a3a;
 }
 
-/* Media query: tablets and larger (768px and up)v*/
+/* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -240,11 +229,70 @@ main {
         margin-top: 79px;
     }
 
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        left: 50px;
+    }
+
+    /* Reason section*/
+    #benefits-owner,
+    #benefits-dogs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #benefits-owner>div,
+    #benefits-dogs>div {
+        width: 75%;
+
+    }
+
+    #benefits-dogs>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
     /* Larger devices(laptops and desktops 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #252525;
         }
     }
+    
+
+    /* Larger devices(screens 1200px and up) */
+    @media screen and (min-width: 1200px) {
+        /* Reason section */
+        #benefits {
+            display: flex;
+            flex-direction: row;
+        }
+        #benefits > div {
+            flex: 1;
+        }
+
+        #benefits-image {
+            order: 0;
+            
+        }
+
+        #benefits-dogs {
+            order: 1;
+        }
+
+        #benefits-owner {
+            align-self: flex-start;
+            margin-left: 80px;
+        }
+        #benefits-dogs {
+            align-self: flex-end;
+        }
+
+
+    }
+     
 
 }
