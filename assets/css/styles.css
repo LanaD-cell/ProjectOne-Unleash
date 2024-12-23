@@ -26,6 +26,11 @@ h3 {
     color: #252525;
 }
 
+hr {
+    border-top: 10px solid rgb(18, 33, 42);
+    margin: 5px 0;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -95,7 +100,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     background: url(../images/main-image.jpeg) no-repeat center center / cover;
     position: relative;
@@ -161,15 +166,16 @@ main {
     margin-top: 5px 0;
 }
 
+
 #circle-cover-bg {
-    background: url(../images/round-image.jpg) no-repeat top center/cover;
+    background: url(../images/round-image.jpg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     /* Make square img a circle */
     border-radius: 50%;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #benefits-image {
@@ -288,7 +294,7 @@ main {
             margin-left: 80px;
         }
         #benefits-dogs {
-            align-self: flex-end;
+            align-self: first baseline;
         }
 
 
