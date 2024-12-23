@@ -186,15 +186,6 @@ main {
 
 
 /* Main Parks*/
-#hero {
-    height: 800px;
-    width: 100%;
-    background: url(../images/main-image.jpeg) no-repeat center center / cover;
-    position: relative;
-    border-bottom: 10px solid #2f556b;
-    border-top: 10px solid #ffa500;
-    margin-top: 16px;
-}
 
 /* Footer */
 #social-networks {
