@@ -24,7 +24,6 @@ h3 {
     font-family: "Oswald", sans-serif;
     letter-spacing: 2px;
     color: #252525;
-    text-transform: ;
 }
 
 /* Header */
@@ -107,8 +106,8 @@ main {
     width: 100%;
     background: url(../images/main-image.jpeg) no-repeat center center/cover;
     position: relative;
-    border-top: 10px solid #2f556b;
-    border-bottom: 10px solid #ffa500;
+    border-bottom: 10px solid #2f556b;
+    border-top: 10px solid #ffa500;
     margin-top: 22px;
 }
 
@@ -137,37 +136,57 @@ main {
     text-transform: lowercase;
 }
 
-/* why love unleash section */
+/* Reason section */
 #reasons {
     width: 90%;
-    margin-top: 20px;
+    margin-top: 20px auto;
+
+}
+
+#reasons h1 {
+
     margin-bottom: 20px;
-    margin: auto;
-
+    text-align: center;
+    font-size: 280%;
 }
 
-#benefits {
-    height: auto;
+#reasons h2 {
+    margin-left: 16px;
 }
 
-#benefit-owner {
+#benefit-owner>div,
+#benefits-dogs>div {
     line-height: 20px;
     margin-bottom: 20px;
 
+
 }
 
-#benefit-dog {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-p {
+#benefits p {
     padding: 0 20px;
+    font-size: 150%;
 }
 
-hr {
-    border-top: 1px solid rgb(18, 33, 42);
-    margin: 5px 0;
+
+#benefits hr {
+    border-top: 3px solid #ffa500;
+    margin-top: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url(../images/round-image.jpg) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
