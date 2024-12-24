@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -111,11 +112,11 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(18, 33, 42, 0.64);
+    background-color: none;
     font-size: 260%;
-    position: absolute;
+    position: sticky;
     bottom: 30px;
-    width: fit-content;
+    width: 80%;
     min-height: 100px;
     padding-top: 20px;
     padding-left: 20px;
@@ -127,11 +128,17 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: white;
+    font-size: 280%;
 
 }
 
-#cover-text>h3 {
+#cover-text>h4 {
     text-transform: lowercase;
+    color: #ffa500;
+    font-size: 90%;
+    margin-bottom: 15px;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 /* Reason section */
