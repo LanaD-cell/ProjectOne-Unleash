@@ -17,6 +17,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: "Roboto", sans-serif;
+    background-color: #2f556b;
 }
 
 h1,
@@ -25,11 +26,6 @@ h3 {
     font-family: "Oswald", sans-serif;
     letter-spacing: 2px;
     color: #252525;
-}
-
-hr {
-    border-top: 10px solid rgb(18, 33, 42);
-    margin: 5px 0;
 }
 
 /* Header */
@@ -107,38 +103,38 @@ main {
     position: relative;
     border-bottom: 10px solid #2f556b;
     border-top: 10px solid #ffa500;
-    margin-top: 5px;
 }
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent*/
     background-color: none;
     font-size: 260%;
-    position: sticky;
-    bottom: 30px;
-    width: 80%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    border-top-right-radius: 30px;
-
+    position: absolute;
+    margin-top: 10px auto;
+    text-align: center;
+    width: 90%;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+#cover-text h2 {
     color: white;
     font-size: 280%;
-
+    margin: 10px; auto;
+    text-align: center;
 }
 
-#cover-text>h4 {
+#cover-text h4 {
     text-transform: lowercase;
     color: #ffa500;
     font-size: 90%;
-    margin-bottom: 15px;
-    margin-right: 0;
-    padding-right: 0;
+    margin-bottom: 300px;
+}
+
+em {
+  font-family: "Courgette", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 150%;
+  text-align: center;
 }
 
 /* Reason section */
@@ -153,12 +149,15 @@ main {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
+    color: white;
 }
 
 #benefits-owner>div,
 #benefits-dogs>div {
     line-height: 20px;
     margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 2px rgb(46, 46, 46);
 
 
 }
@@ -179,6 +178,7 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    box-shadow: 0 2px 2px rgb(46, 46, 46);
     /* Make square img a circle */
     border-radius: 50%;
     max-width: 300px;
@@ -204,17 +204,28 @@ main {
 }
 
 /* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0;
+    
+}
+
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: white;
+    
 }
 
-ul {
-    list-style-type: none;
-}
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
@@ -222,16 +233,16 @@ ul {
 }
 
 #hr-blue {
-    background-color: #2f556b;
-    height: 10px;
+    border: 6px solid #03283d;
     width: 100%;
+    margin-bottom: 0;
 }
 
 #hr-orange {
-    background-color: #ffa500;
-    height: 10px;
+    border: 5px solid #ffa500;
     width: 100%;
 }
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
