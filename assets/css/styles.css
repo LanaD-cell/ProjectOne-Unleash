@@ -106,7 +106,7 @@ main {
     position: relative;
     border-bottom: 10px solid #2f556b;
     border-top: 10px solid #ffa500;
-    margin-top: 16px;
+    margin-top: 5px;
 }
 
 #cover-text {
@@ -196,10 +196,25 @@ main {
     list-style-type: none;
 }
 
+ul {
+    list-style-type: none;
+}
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#hr-blue {
+    background-color: #2f556b;
+    height: 10px;
+    width: 100%;
+}
+
+#hr-orange {
+    background-color: #ffa500;
+    height: 10px;
+    width: 100%;
 }
 
 /* Media query: tablets and larger (768px and up)*/
