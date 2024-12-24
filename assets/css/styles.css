@@ -101,8 +101,8 @@ main {
     width: 100%;
     background: url(../images/main-image.jpeg) no-repeat center center / cover;
     position: relative;
-    border-bottom: 10px solid #2f556b;
-    border-top: 10px solid #ffa500;
+    border-top: 10px solid #2f556b;
+    border-bottom: 10px solid #ffa500;
 }
 
 #cover-text {
@@ -118,7 +118,7 @@ main {
 #cover-text h2 {
     color: white;
     font-size: 280%;
-    margin: 10px; auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -130,27 +130,34 @@ main {
 }
 
 em {
-  font-family: "Courgette", serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 150%;
-  text-align: center;
+    font-family: "Courgette", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 150%;
+    text-align: center;
 }
 
 /* Reason section */
 #reasons {
     width: 90%;
-    margin-top: 20px auto;
+    margin-top: 20px;
+    margin-left: 40px;
 
 }
 
 #reasons h2 {
 
     margin-bottom: 20px;
+    padding-left: 50px;
     text-align: center;
     font-size: 280%;
     color: white;
 }
+
+#reasons h3 {
+    margin-left: 3px;
+}
+
 
 #benefits-owner>div,
 #benefits-dogs>div {
@@ -181,18 +188,37 @@ em {
     box-shadow: 0 2px 2px rgb(46, 46, 46);
     /* Make square img a circle */
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    border-color: #ffa500;
+    border-width: -10px;
+    border-style: solid;
+    max-width: 450px;
+    max-height: 450px;
 }
 
 #benefits-image {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
 /* Main Parks*/
+main#parks-section {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+#park-profiles {
+    background-color: #2f556b;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Gallery styles */
 #photos img {
     width: 100%;
@@ -211,7 +237,7 @@ footer {
     width: 100%;
     background-color: white;
     margin-bottom: 0;
-    
+
 }
 
 #social-networks {
@@ -222,7 +248,7 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: white;
-    
+
 }
 
 
@@ -235,7 +261,7 @@ footer {
 #hr-blue {
     border: 6px solid #03283d;
     width: 100%;
-    margin-bottom: 0;
+    
 }
 
 #hr-orange {
@@ -251,6 +277,7 @@ footer {
         column-gap: 0;
     }
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -319,46 +346,48 @@ footer {
     }
 }
 
-    /* Larger devices(laptops and desktops 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #252525;
-        }
+/* Larger devices(laptops and desktops 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #252525;
+    }
 
     #photos {
         column-count: 4;
         column-gap: 0;
     }
 }
-    /* Larger devices(screens 1200px and up) */
-    @media screen and (min-width: 1200px) {
-        /* Reason section */
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
-        #benefits > div {
-            flex: 1;
-        }
 
-        #benefits-image {
-            order: 0;
-            
-        }
+/* Larger devices(screens 1200px and up) */
+@media screen and (min-width: 1200px) {
 
-        #benefits-dogs {
-            order: 1;
-        }
+    /* Reason section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
 
-        #benefits-owner {
-            align-self: flex-start;
-            margin-left: 80px;
-        }
-        #benefits-dogs {
-            align-self: first baseline;
-        }
+    #benefits>div {
+        flex: 1;
+    }
 
+    #benefits-image {
+        order: 0;
 
     }
-     
 
+    #benefits-dogs {
+        order: 1;
+    }
+
+    #benefits-owner {
+        align-self: flex-start;
+        margin-left: 80px;
+    }
+
+    #benefits-dogs {
+        align-self: first baseline;
+    }
+
+
+}
