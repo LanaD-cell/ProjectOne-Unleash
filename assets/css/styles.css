@@ -272,6 +272,9 @@ main#parks-section {
     line-height: 0;
 }
 
+.justify-text-center {
+    justify-content: center;
+}
 /* Footer */
 footer {
     display: flex;
@@ -283,6 +286,13 @@ footer {
 
 }
 
+.container-jtp {
+    display: block;
+    background-color: #ffa500;
+    margin-top: 10x;
+    border-bottom: 3px solid #2f556b;
+    
+}
 #social-networks {
     text-align: center;
     padding: 20px;
