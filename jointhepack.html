@@ -52,6 +52,15 @@
         <div class="col-12 col-md-10 col-lg-8">
           <!-- Add form heres -->
           <form class="row g-3">
+            <div class="input-group">
+              <span class="input-group-text">First and last name</span>
+              <input type="text" aria-label="First name" class="form-control">
+              <input type="text" aria-label="Last name" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-text">Your dogs name</span>
+              <input type="text" aria-label="First name" class="form-control">
+            </div>
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" class="form-control" id="inputEmail4">
@@ -91,7 +100,11 @@
                 </label>
               </div>
             </div>
-            <div class="col-12">
+            <div class="input-group">
+              <span class="input-group-text">Message</span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <div class="col-12 mb-4">
               <button type="submit" class="btn btn-primary">Sign in</button>
             </div>
           </form>
