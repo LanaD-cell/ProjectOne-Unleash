@@ -312,7 +312,7 @@ footer {
 }
 
 #hr-blue {
-    border: 6px solid #03283d;
+    border: 3px solid #03283d;
     width: 100%;
 
 }
@@ -320,6 +320,47 @@ footer {
 #hr-orange {
     border: 5px solid #ffa500;
     width: 100%;
+}
+
+/* iFrame styling */
+.ratio-4x3 {
+    @include media-breakpoint-up(md) {
+      --bs-aspect-ratio: 50%; // 2x1
+    }
+  }
+
+.container-vid {
+    width: 80%;
+    margin: 80px auto;
+    
+  }
+
+.container-vid h2 {
+    padding: 60px 0;
+    color: white;
+    font-size: 44.8px;
+    font-family: "Oswald" sans-serif;
+    text-align: center;
+}
+
+.row-vid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.col-vid {
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.feature-vid {
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 
