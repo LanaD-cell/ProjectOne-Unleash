@@ -213,17 +213,51 @@ em {
     border-bottom: 10px solid #ffa500;
     margin-top: 15px;
 }
+
+.container-about {
+    width: 80%;
+    margin: 80px auto;
+    background-color: white;
+    border-radius: 15px;
+    
+  }
+
+.container-about h2 {
+    padding: 20px 0;
+    color: #3a3a3a;
+    font-size: 45px;
+    font-family: "Oswald" sans-serif;
+    text-align: center;
+}
+
+.container-about h3 {
+    padding: 20px 0;
+    color: #3a3a3a;
+    font-size: 40px;
+    font-family: "Oswald" sans-serif;
+    text-align: center;
+}
+
+.container-about p {
+    padding: 10px 5px;
+    color: #3a3a3a;
+    font-size: 30px;
+    font-family: "Oswald" sans-serif;
+    text-align: center;
+}
+
 .blockquote p {
     color: white;
     font-family: "Courgette";
     margin-right: 15px;
-    font-size: 150%;
+    font-size: 60px;
 }
 
 .blockquote-footer cite {
     color: white;
     font-family: "Courgette";
     margin-right: 15px;
+    font-size: 20px;
 }
 
 main#parks-section {
@@ -323,11 +357,7 @@ footer {
 }
 
 /* iFrame styling */
-.ratio-4x3 {
-    @include media-breakpoint-up(md) {
-      --bs-aspect-ratio: 50%; // 2x1
-    }
-  }
+
 
 .container-vid {
     width: 80%;
@@ -338,7 +368,7 @@ footer {
 .container-vid h2 {
     padding: 60px 0;
     color: white;
-    font-size: 44.8px;
+    font-size: 45px;
     font-family: "Oswald" sans-serif;
     text-align: center;
 }
@@ -352,7 +382,7 @@ footer {
 
 .col-vid {
     flex-basis: 50%;
-    min-width: 250px;
+    min-width: 300px;
 }
 
 .feature-vid {
