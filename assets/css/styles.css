@@ -134,6 +134,7 @@ main {
     width: 100%;
     background-color: white;
     margin-bottom: 0;
+    margin-right: 5px;
 }
 
 .btn-bd-primary {
