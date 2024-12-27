@@ -54,15 +54,15 @@
           <form class="row g-3">
             <div class="input-group">
               <span class="input-group-text">First and last name</span>
-              <input type="text" aria-label="First name" class="form-control">
-              <input type="text" aria-label="Last name" class="form-control">
+              <input type="text" aria-label="First name" class="form-control" required>
+              <input type="text" aria-label="Last name" class="form-control" required>
             </div>
             <div class="input-group">
               <span class="input-group-text">Your dogs name</span>
               <input type="text" aria-label="First name" class="form-control">
             </div>
             <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
+              <label for="inputEmail4" class="form-label" required>Email</label>
               <input type="email" class="form-control" id="inputEmail4">
             </div>
             <div class="col-12">
@@ -85,32 +85,35 @@
       </div>
     </section>
     <hr>
-    
+
     <div class="container-banner">
       <div id="row-banner-jtp">
-          <ul>
-              <li></li><strong>part</strong></li>
-              <li><strong>of</strong></li>
-              <li><strong>the</strong></li>
-              <li><strong>pack</strong></li>
-          </ul>
+        <ul>
+          <li></li><strong>part</strong></li>
+          <li><strong>of</strong></li>
+          <li><strong>the</strong></li>
+          <li><strong>pack</strong></li>
+        </ul>
       </div>
-  </div>
-    <section>
-      <div class="container-vid">
-        <h2>Featured Member Videos</h2>
-        <div class="row-vid">
-          <div class="col-vid">
-            <div class="feature-vid">
-              <video src="assets/videos/10165880-hd_1080_1920_30fps.mp4" title="Dog on a motorcycle" width="300" autoplay muted loop controls></video>
-              <video src="assets/videos/4157418-hd_720_1280_30fps.mp4" title="Dogs running in snow" autoplay muted loop controls></video>
-              <video src="assets/videos/6588293-hd_1080_1920_30fps.mp4" title="Pack of pomeranians" autoplay muted loop controls></video>
-              <video src="assets/videos/6839307-hd_1920_1080_24fps.mp4" title="Dog swimming" autoplay muted loop controls></video>
-              <video src="assets/videos/855830-hd_1920_1080_30fps.mp4" title="Small dogs on a hike" autoplay muted loop controls></video>
-            </div>
-          </div>
+    </div>
+    <div class="row-banner">
+      <h2 id="row-membervid">Featured Member Videos</h2>
+    </div>
+    <div id="video" class="container-vid">
+      <div class="col12 mb-4">
+        <div class="feature-vid">
+          <video src="assets/videos/10165880-hd_1080_1920_30fps.mp4" title="Dog on a motorcycle" width="300"
+            muted loop controls></video>
+          <video src="assets/videos/4157418-hd_720_1280_30fps.mp4" title="Dogs running in snow" muted loop
+            controls></video>
+          <video src="assets/videos/6588293-hd_1080_1920_30fps.mp4" title="Pack of pomeranians" muted loop
+            controls></video>
+          <video src="assets/videos/6839307-hd_1920_1080_24fps.mp4" title="Dog swimming" muted loop
+            controls></video>
+          <video src="assets/videos/855830-hd_1920_1080_30fps.mp4" title="Small dogs on a hike" muted loop
+            controls></video>
         </div>
-    </section>
+      </div>
   </main>
 
   <!-- Footer -->

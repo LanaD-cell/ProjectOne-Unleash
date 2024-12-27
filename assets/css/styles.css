@@ -32,13 +32,15 @@ h3 {
 header {
     background-color: white;
     padding: 0 1rem;
-    position: fixed;
+    position: sticky;
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 4px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    left: 0;
+    top: 0;
 }
 
 header a {
@@ -97,27 +99,24 @@ main {
 
 /* Hero section */
 #hero {
-    height: 800px;
+    min-height: 700px;
     width: 100%;
     background: url(../images/main-image.jpeg) no-repeat center center / cover;
     position: relative;
-    border-top: 10px solid #2f556b;
     border-bottom: 10px solid #ffa500;
 }
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent*/
-    font-size: 260%;
-    position: relative;
-    margin-top: 10px auto;
-    width: 90%;
+    background-color: rgba(18, 33, 42, 0.4);
+    color: white;
+    font-size: 130%;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    border-radius: 0 6px;
 }
 
-#cover-text h1 {
-    color: white;
-    font-size: 150px;
-    margin: 10px auto;
-}
 .container-banner ul {
     list-style: none;
     justify-content: space-evenly;
@@ -147,8 +146,8 @@ main {
     border-radius: 15px;
     margin-left: 30px;
     margin-bottom: 10px;
-   
-  }
+
+}
 
 em {
     font-family: "Courgette", serif;
@@ -159,14 +158,6 @@ em {
 }
 
 /* Reason section */
-#reasons {
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 40px;
-    
-
-}
-
 #reasons h2 {
 
     margin-bottom: 20px;
@@ -228,29 +219,26 @@ em {
 
 /* Main Parks*/
 /* Hero parks*/
-#hero-parks {
-    height: 400px;
-    width: 100%;
-    background: url(../images/at-a-quarry.jpg) no-repeat center center / cover;
-    position: relative;
-    border-top: 10px solid #2f556b;
-    border-bottom: 10px solid #ffa500;
-    margin-top: 15px;
-}
 
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 .container-about {
     width: 80%;
     margin: 80px auto;
     background-color: white;
     border-radius: 15px;
-    
-  }
+
+}
 
 .container-about h2 {
     padding: 20px 0;
     color: #3a3a3a;
     font-size: 45px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald"sans-serif;
     text-align: center;
 }
 
@@ -258,7 +246,7 @@ em {
     padding: 20px 0;
     color: #3a3a3a;
     font-size: 40px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald"sans-serif;
     text-align: center;
 }
 
@@ -266,7 +254,7 @@ em {
     padding: 10px 5px;
     color: #3a3a3a;
     font-size: 30px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald"sans-serif;
     text-align: center;
 }
 
@@ -274,7 +262,7 @@ em {
     color: white;
     font-family: "Courgette";
     margin-right: 15px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .blockquote-footer cite {
@@ -315,8 +303,7 @@ main#parks-section {
 }
 
 .card {
-    width: 600px;
-    height: 800px;
+    max-width: 600px;
     margin: 10px;
 }
 
@@ -335,6 +322,11 @@ main#parks-section {
 }
 
 /* JTP Styles */
+#row-membervid {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
 
 /* Footer */
 footer {
@@ -352,8 +344,9 @@ footer {
     background-color: #ffa500;
     margin-top: 10x;
     border-bottom: 3px solid #2f556b;
-    
+
 }
+
 #social-networks {
     text-align: center;
     padding: 20px;
@@ -383,26 +376,27 @@ footer {
     width: 100%;
 }
 
-/* iFrame styling */
+/* Video styling */
 
+#video {}
 
 .container-vid {
     width: 80%;
     margin: 80px auto;
-    
-  }
+    display: flex;
 
-.container-vid h2 {
+}
+
+.video h2 {
     padding: 60px 0;
     color: white;
     font-size: 45px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald"sans-serif;
     text-align: center;
 }
 
 .row-vid {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
 
 }
@@ -410,6 +404,7 @@ footer {
 .col-vid {
     flex-basis: 50%;
     min-width: 300px;
+    display: flex;
 }
 
 .feature-vid {
@@ -467,8 +462,9 @@ footer {
 
     /* Hero */
     #cover-text {
-        width: 300px;
+        width: 100%;
         left: 50px;
+        left: 0;
     }
 
     /* Reason section*/
