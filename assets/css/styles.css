@@ -333,6 +333,9 @@ main#parks-section {
 .justify-text-center {
     justify-content: center;
 }
+
+/* JTP Styles */
+
 /* Footer */
 footer {
     display: flex;
