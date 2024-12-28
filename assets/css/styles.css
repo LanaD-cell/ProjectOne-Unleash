@@ -307,6 +307,22 @@ main#parks-section {
     margin: 10px;
 }
 
+/* Google maps */
+.google-maps {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* Gallery styles */
 #photos img {
     width: 100%;
@@ -322,11 +338,46 @@ main#parks-section {
 }
 
 /* JTP Styles */
-#row-membervid {
-    color: white;
-    text-align: center;
-    font-size: 100px;
+/* Video styling */
+video {
+    width: 100%;
+    height: auto;
 }
+.container-vid {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+
+}
+
+.video h2 {
+    padding: 60px 0;
+    color: white;
+    font-size: 45px;
+    font-family: "Oswald"sans-serif;
+    text-align: center;
+}
+
+.row-vid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-vid {
+    flex-basis: 50%;
+    min-width: 300px;
+    display: flex;
+}
+
+.feature-vid {
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
 
 /* Footer */
 footer {
@@ -376,44 +427,6 @@ footer {
     width: 100%;
 }
 
-/* Video styling */
-
-#video {}
-
-.container-vid {
-    width: 80%;
-    margin: 80px auto;
-    display: flex;
-
-}
-
-.video h2 {
-    padding: 60px 0;
-    color: white;
-    font-size: 45px;
-    font-family: "Oswald"sans-serif;
-    text-align: center;
-}
-
-.row-vid {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.col-vid {
-    flex-basis: 50%;
-    min-width: 300px;
-    display: flex;
-}
-
-.feature-vid {
-    width: 83%;
-    margin: auto;
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
-}
 
 
 /* Media query: large or landscape phones (576px and up) */
