@@ -343,14 +343,8 @@ video {
     width: 100%;
     height: auto;
 }
-.container-vid {
-    width: 80%;
-    margin: 80px auto;
-    display: flex;
 
-}
-
-.video h2 {
+.videos h2 {
     padding: 60px 0;
     color: white;
     font-size: 45px;
