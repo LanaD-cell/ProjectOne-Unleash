@@ -20,6 +20,7 @@ body {
     background-color: #2f556b;
 }
 
+
 h1,
 h2,
 h3 {
@@ -122,7 +123,8 @@ main {
     justify-content: space-evenly;
     display: flex;
     font-size: 30px;
-    padding: 5px auto;
+    padding: 0;
+    padding-right: 10px;
     margin: 0;
 }
 
@@ -219,10 +221,16 @@ em {
 
 /* Main Parks*/
 /* Hero parks*/
-
+#hero-parks {
+    min-height: 400px;
+    width: 100%;
+    background: url(../images/at-a-quarry.jpg) no-repeat center center / cover;
+    position: relative;
+    border-bottom: 10px solid #ffa500;
+}
 
 #container {
-    position: relative;
+    position: absolute;
     text-align: center;
     color: white;
 }
@@ -288,11 +296,20 @@ main#parks-section {
 #park-profiles {
     background-color: #2f556b;
     color: white;
+    padding: 0;
+    margin: 1;
 }
 
 .container {
     display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+
+
 }
 
 #card-img-top {
@@ -303,8 +320,11 @@ main#parks-section {
 }
 
 .card {
-    max-width: 600px;
+    width: 100%;
     margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
 }
 
 /* Google maps */
@@ -324,6 +344,14 @@ main#parks-section {
 }
 
 /* Gallery styles */
+
+#photos h2 {
+    padding: 60px 0;
+    color: white;
+    font-size: 45px;
+    font-family: "Oswald"sans-serif;
+    text-align: center;
+}
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -338,38 +366,17 @@ main#parks-section {
 }
 
 /* JTP Styles */
+
+
 /* Video styling */
+.container-video {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 video {
     width: 100%;
-    height: auto;
-}
-
-.videos h2 {
-    padding: 60px 0;
-    color: white;
-    font-size: 45px;
-    font-family: "Oswald"sans-serif;
-    text-align: center;
-}
-
-.row-vid {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.col-vid {
-    flex-basis: 50%;
-    min-width: 300px;
-    display: flex;
-}
-
-.feature-vid {
-    width: 83%;
-    margin: auto;
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
+    height: 150px;
 }
 
 
