@@ -293,39 +293,6 @@ main#parks-section {
 
 }
 
-#park-profiles {
-    background-color: #2f556b;
-    color: white;
-    padding: 0;
-    margin: 1;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
-    margin-right: 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-
-
-}
-
-#card-img-top {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 400px;
-}
-
-.card {
-    width: 100%;
-    margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-
-}
 
 /* Google maps */
 .google-maps {
@@ -366,7 +333,9 @@ main#parks-section {
 }
 
 /* JTP Styles */
-
+#featured-videos h2 {
+    color: white;
+}
 
 /* Video styling */
 .container-video {
