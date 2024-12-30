@@ -91,6 +91,11 @@ The last update to this file was: ** December 30, 2024**
    - For the Header I used [Roboto](https://fonts.google.com/specimen/Roboto), as it offers a bit more body to the header without clashing with the other fonts.
   
    ### Colors
+   <div align="center">
+  <img src="../ProjectOne-Unleash/assets/images/colors.jpg" style="background-color: black" alt="UNleash picture">
+</div>
+   
+
    ### Images
    ### Icons
    ### Styling
