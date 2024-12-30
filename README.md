@@ -1,8 +1,6 @@
-
 <div align="center">
-  <img src="../assets/images/Logo-and-Header.png">
+  <img src="../ProjectOne-Unleash/assets/images/readmehero.png" style="background-color: black" alt="Unleash">
 </div>
-
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
 
 For my first project I chose to stick to a topic that is relevant in my own life. I have followed the basic requirements for the project as there are many functions that I, as a user of the site UNleash, would love to have on the site. As a dog owner, I understand the challenge of finding new routes to walk. Dog owners also would love to take their companions out with them and that is why dogfriendly restaurants, hotels etc would be good to feature here. The social aspect is also very important. Creating a site for likeminded people to meet up. 
@@ -75,13 +73,13 @@ The last update to this file was: ** December 30, 2024**
 ## Visual Elements
    ### Wireframes 
    <div align="center">
-  <img src="../ProjectOne-Unleash/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
+  <img src="../ProjectOne-Unleash/assets/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
 </div>
 <div align="center">
-  <img src="../ProjectOne-Unleash/documentation/wireframes/Join the Pack.png" style="background-color: black" alt="Wireframe Join the pack">
+  <img src="../ProjectOne-Unleash/assets/documentation/wireframes/Join the Pack.png" style="background-color: black" alt="Wireframe Join the pack">
 </div>
 <div align="center">
-  <img src="../ProjectOne-Unleash/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
+  <img src="../ProjectOne-Unleash/assets/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
 </div>
 
  
@@ -93,10 +91,18 @@ The last update to this file was: ** December 30, 2024**
    ### Colors
    <div align="center">
   <img src="../ProjectOne-Unleash/assets/images/colors.jpg" style="background-color: black" alt="UNleash picture">
-</div>
+  </div>
    
 
    ### Images
+   <div align="center">
+  <img src="../ProjectOne-Unleash/assets/images/pics.jpg" style="background-color: black" alt="UNleash picture">
+  </div>
+
+  - The imgaes used follow the theme of playfullness and are centered around strong Dog imagery.
+  - All images are of a high quality and found on Pexel and Freepik.
+
+
    ### Icons
    ### Styling
 
