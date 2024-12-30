@@ -16,15 +16,15 @@ The last update to this file was: ** December 30, 2024**
     
     - [Target Users](#targetusers)
     - [Target Customers](#targetcustomers)
-2.    <li><details>
-    <summary><a href="#visualelement">Visual Elements</a></summary>
 
-   - [Wireframes](#wireframes)
-   - [Fonts](#fonts)
-   - [Icons](#icons)
-   - [Colors](#colors)
-   - [Images](#images)
-   - [Styling](#styling)
+2. <summary><a href="#visualelement">Visual Elements</a></summary>
+
+    - [Wireframes](#wireframes)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    - [Images](#images)
+    - [Styling](#styling)
 
 
 3. <details open>
@@ -84,6 +84,18 @@ The last update to this file was: ** December 30, 2024**
   <img src="../ProjectOne-Unleash/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
 </div>
 
+ 
+   ### Fonts
+   - The primary font used is [Oswald](https://fonts.google.com/?query=oswald), as the font brings the playful social feeling of the site to life.
+   - Where some italic styling was required, [Courgette](https://fonts.google.com/specimen/Courgette) was used.
+   - For the Header I used [Roboto](https://fonts.google.com/specimen/Roboto), as it offers a bit more body to the header without clashing with the other fonts.
+  
+   ### Colors
+   ### Images
+   ### Icons
+   ### Styling
+
+
 
     
      
@@ -101,4 +113,3 @@ The last update to this file was: ** December 30, 2024**
 
 
 
-[def]: visualelements
