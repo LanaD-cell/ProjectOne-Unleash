@@ -11,23 +11,80 @@ What problem does it solve? Normally it takes quite a bit of effort to find some
 The last update to this file was: ** December 30, 2024**
 
 ## Table of Content 
-1. [User Experience](#ux)
-    1. [Target Users](#targetusers)
-    2. [Target Customers](#targetcustomers)
-    3. [Visual Elements](#visualelement)
-2. [Features](#features)
-    1. [Pages](#pages)
-    2. [Additional Features](#additionalfeatures)
-    3. [Could Haves](#couldhaves)
-3. [Technologies used](#tech)
-    1. [Languages](#languages)
-    2. [Frameworks](#frameworks)
-    3. [Libraries](#libraries)
-    4. [Platforms](#platforms)
-    5. [Other Tools](#othertools)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. 
+1. <details open>
+   <summary><a href="User Experience">User Experience</a></summary>
+    
+    - [Target Users](#targetusers)
+    - [Target Customers](#targetcustomers)
+2.    <li><details>
+    <summary><a href="#visualelement">Visual Elements</a></summary>
+
+   - [Wireframes](#wireframes)
+   - [Fonts](#fonts)
+   - [Icons](#icons)
+   - [Colors](#colors)
+   - [Images](#images)
+   - [Styling](#styling)
+
+
+3. <details open>
+   <summary><a href="Features">Features</a></summary>
+
+    - [Pages](#pages)
+    - [Additional Features](#additionalfeatures)
+    - [Could Haves](#couldhaves)
+
+4. <details open>
+   <summary><a href="Technology used">Thechnology Used</a></summary>
+
+    - [Languages](#languages)
+    - [Frameworks](#frameworks)
+    - [Libraries](#libraries)
+    - [Platforms](#platforms)
+    - [Other Tools](#othertools)
+  
+5. <details open>
+   <summary><a href="Testing">Testing</a></summary>  
+
+   - [Validation](#validation)
+   - [General Testing](#generaltesting)
+   - [Desktop testing](#desktoptesting)
+
+6. <details open>
+   <summary><a href="Deployment">Deployment</a></summary>
+
+   - [Github Deployment](#github)
+
+7. <details open>
+   <summary><a href="Credits and Contact">Credits and Contact</a></summary>
+
+------
+
+# User Experience
+## Target Users
+   ### The target User for UN<em>leash</em> is:
+  - Someone who wants to find safe walking trails and parks.
+  - Someone who is interested in seeing different parks in their city.
+  - Someone who wants to connect with likeminded people.
+  - Someone that enjoys taking their dog everywhere with them. 
+
+## Target Customers
+   - Companies/Businesses that want to advertise their restaurant, campground 
+   and pet related services.
+
+## Visual Elements
+   ### Wireframes 
+   <div align="center">
+  <img src="../ProjectOne-Unleash/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
+</div>
+<div align="center">
+  <img src="../ProjectOne-Unleash/documentation/wireframes/Join the Pack.png" style="background-color: black" alt="Wireframe Join the pack">
+</div>
+<div align="center">
+  <img src="../ProjectOne-Unleash/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
+</div>
+
+
     
      
 
