@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="../assets/images/Logo-and-Header.png" style="background-color: black" alt="UNleash picture">
+  <img src="../assets/images/Logo-and-Header.png">
 </div>
 
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
