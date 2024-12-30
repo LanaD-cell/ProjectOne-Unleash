@@ -1,5 +1,7 @@
-![CI logo](../ProjectOne-Unleash/assets/images/Logo-and-Header.png)
 
+<div align="center">
+  <img src="../ProjectOne-Unleash/documentation/Screenshots/Project-Unleash screenshots/readmehero.png" style="background-color: black" alt="UNleash picture">
+</div>
 
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
 
@@ -12,7 +14,7 @@ The last update to this file was: ** December 30, 2024**
 1. [User Experience](#ux)
     1. [Target Users](#targetusers)
     2. [Target Customers](#targetcustomers)
-    3. [Visual Elements](visualelements)
+    3. [Visual Elements](#visualelement)
 2. [Features](#features)
     1. [Pages](#pages)
     2. [Additional Features](#additionalfeatures)
@@ -40,3 +42,6 @@ The last update to this file was: ** December 30, 2024**
 
 ## Release History
 
+
+
+[def]: visualelements
