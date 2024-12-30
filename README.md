@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="../ProjectOne-Unleash/documentation/Screenshots/Project-Unleash screenshots/readmehero.png" style="background-color: black" alt="UNleash picture">
+  <img src="../assets/images/Logo-and-Header.png" style="background-color: black" alt="UNleash picture">
 </div>
 
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
