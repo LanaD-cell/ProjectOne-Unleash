@@ -245,7 +245,7 @@ em {
     padding: 20px 0;
     color: #3a3a3a;
     font-size: 45px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
 }
 
@@ -253,7 +253,7 @@ em {
     padding: 20px 0;
     color: #3a3a3a;
     font-size: 40px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
 }
 
@@ -261,7 +261,7 @@ em {
     padding: 10px 5px;
     color: #3a3a3a;
     font-size: 30px;
-    font-family: "Oswald" sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
 }
 
@@ -315,7 +315,7 @@ main#parks-section {
     padding: 60px 0;
     color: white;
     font-size: 45px;
-    font-family: "Oswald"sans-serif;
+    font-family: "Oswald",sans-serif;
     text-align: center;
 }
 #photos img {
