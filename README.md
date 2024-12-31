@@ -13,24 +13,31 @@ The last update to this file was: ** December 30, 2024**
 ## Table of Content 
 1. <details open>
    <summary><a href="User Experience">User Experience</a></summary>
+
+   <ul> 
+   <li><details>
+    <summary><a href="#users">Users</a></summary>
     
     - [Target Users](#targetusers)
     - [Target Customers](#targetcustomers)
 
-2. <summary><a href="#visualelement">Visual Elements</a></summary>
-
+2.  <summary><a href="#visualelements">Visual Elements</a></summary>
+    
     - [Wireframes](#wireframes)
     - [Fonts](#fonts)
     - [Icons](#icons)
     - [Colors](#colors)
     - [Images](#images)
     - [Styling](#styling)
-
+   </li>
+   
+   </ul>
+   </details>
 
 3. <details open>
    <summary><a href="Features">Features</a></summary>
 
-    - [Pages](#pages)
+    - [Functionality](#function)
     - [Additional Features](#additionalfeatures)
     - [Could Haves](#couldhaves)
 
@@ -61,7 +68,8 @@ The last update to this file was: ** December 30, 2024**
 ------
 
 # User Experience
-## Target Users
+## Users 
+### Target Users
    ### The target User for UN<em>leash</em> is:
   - Someone who wants to find safe walking trails and parks.
   - Someone who is interested in seeing different parks in their city.
