@@ -75,13 +75,13 @@ The last update to this file was: ** December 30, 2024**
 ## Visual Elements
    ### Wireframes 
    <div align="center">
-  <img src="../ProjectOne-Unleash/assets/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
+  <img src="assets/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
 </div>
 <div align="center">
-  <img src="../ProjectOne-Unleash/assets/documentation/wireframes/Join the Pack.png" style="background-color: black" alt="Wireframe Join the pack">
+  <img src="assets/documentation/wireframes/Join the Pack.png" style="background-color: black" alt="Wireframe Join the pack">
 </div>
 <div align="center">
-  <img src="../ProjectOne-Unleash/assets/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
+  <img src="assets/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
 </div>
 
  
@@ -92,16 +92,16 @@ The last update to this file was: ** December 30, 2024**
   
    ### Colors
    <div align="center">
-  <img src="../ProjectOne-Unleash/assets/images/colors.jpg" style="background-color: black" alt="UNleash picture">
+  <img src="assets/images/colors.jpg" style="background-color: black" alt="UNleash picture">
   </div>
    
 
    ### Images
    <div align="center">
-  <img src="../ProjectOne-Unleash/assets/images/pics.jpg" style="background-color: black" alt="UNleash picture">
+  <img src="assets/images/pics.jpg" style="background-color: black" alt="UNleash picture">
   </div>
 
-  - The imgaes used follow the theme of playfullness and are centered around strong Dog imagery.
+  - The images used follow the theme of playfullness and are centered around strong Dog imagery.
   - All images are of a high quality and found on Pexel and Freepik.
 
 
