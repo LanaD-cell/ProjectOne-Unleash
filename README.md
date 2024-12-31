@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/Logo-and-Header.png" style="background-color: black" alt=Unleash Logo">
+  <img src="assets/images/Logo-and-Header.png" style="background-color: white" alt=Unleash Logo">
 </div>
 
 
@@ -15,13 +15,14 @@ The last update to this file was: ** December 30, 2024**
    <summary><a href="User Experience">User Experience</a></summary>
 
    <ul> 
-   <li><details>
+   <li>
     <summary><a href="#users">Users</a></summary>
     
     - [Target Users](#targetusers)
     - [Target Customers](#targetcustomers)
 
-2.  <summary><a href="#visualelements">Visual Elements</a></summary>
+   <li><details> 
+   <summary><a href="#visualelements">Visual Elements</a></summary>
     
     - [Wireframes](#wireframes)
     - [Fonts](#fonts)
@@ -34,36 +35,42 @@ The last update to this file was: ** December 30, 2024**
    </ul>
    </details>
 
-3. <details open>
+2. <details open>
    <summary><a href="Features">Features</a></summary>
 
     - [Functionality](#function)
     - [Additional Features](#additionalfeatures)
     - [Could Haves](#couldhaves)
+   </details>
 
-4. <details open>
-   <summary><a href="Technology used">Thechnology Used</a></summary>
+  3. <details open>
+     <summary><a href="technology used">Technology Used</a></summary>
 
-    - [Languages](#languages)
-    - [Frameworks](#frameworks)
-    - [Libraries](#libraries)
-    - [Platforms](#platforms)
-    - [Other Tools](#othertools)
+      - [Languages](#languages)
+      - [Frameworks](#frameworks)
+      - [Libraries](#libraries)
+      - [Platforms](#platforms)
+      - [Other Tools](#othertools)
+   
+   </details>
   
-5. <details open>
+1. <details open>
    <summary><a href="Testing">Testing</a></summary>  
 
    - [Validation](#validation)
    - [General Testing](#generaltesting)
    - [Desktop testing](#desktoptesting)
 
-6. <details open>
+2. <details open>
    <summary><a href="Deployment">Deployment</a></summary>
 
    - [Github Deployment](#github)
 
-7. <details open>
-   <summary><a href="Credits and Contact">Credits and Contact</a></summary>
+3. <details open>
+   <summary><a href="Credits and Contact">Credits and Content</a></summary>
+   
+   - [Content](#content)
+   - [Credits](#credits)
 
 ------
 
@@ -76,12 +83,12 @@ The last update to this file was: ** December 30, 2024**
   - Someone who wants to connect with likeminded people.
   - Someone that enjoys taking their dog everywhere with them. 
 
-## Target Customers
+### Target Customers
    - Companies/Businesses that want to advertise their restaurant, campground 
    and pet related services.
 
-## Visual Elements
-   ### Wireframes 
+### Visual Elements
+   #### Wireframes 
    <div align="center">
   <img src="assets/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
 </div>
@@ -93,12 +100,12 @@ The last update to this file was: ** December 30, 2024**
 </div>
 
  
-   ### Fonts
+### Fonts
    - The primary font used is [Oswald](https://fonts.google.com/?query=oswald), as the font brings the playful social feeling of the site to life.
    - Where some italic styling was required, [Courgette](https://fonts.google.com/specimen/Courgette) was used.
    - For the Header I used [Roboto](https://fonts.google.com/specimen/Roboto), as it offers a bit more body to the header without clashing with the other fonts.
   
-   ### Colors
+### Colors
    <div align="center">
   <img src="assets/images/colors.jpg" style="background-color: black" alt="UNleash picture">
   </div>
@@ -110,12 +117,59 @@ The last update to this file was: ** December 30, 2024**
   </div>
 
   - The images used follow the theme of playfullness and are centered around strong Dog imagery.
-  - All images are of a high quality and found on Pexel and Freepik.
+  - All images are of a high quality and found on [Pexel](https://www.pexels.com/) and [Freepik](https://www.freepik.com/).
+
+### Icons
+   
+   - The socialmedia lIcons are linked to each sites homepage.
+
+   <div align="center">
+  <img src="assets/images/icons.jpg" style="background-color: black" alt="icons">
+  </div>
+
+### Styling
+  - I mainly utelised [Bootstrap5](https://getbootstrap.com/) for the styling of Forms, Modals, Iframes and Cards.
 
 
-   ### Icons
-   ### Styling
+# Features
+## Functionality
 
+   - The Navbar is responsive, featuring 3 elements. 
+   - On smaller devices, the elements form a burgermenu.
+   - The burgericon activates drop down nav menu.
+   - The navbar and footer sticks to the top and bottom respectively.
+
+   <div align="center">
+  <img src="assets/documentation/Screenshots/Tablet and mobile view.jpg" style="background-color: black" alt="tablet and mobile view">
+  </div>
+
+
+### Additional Features
+
+  - A Members gallery of Photos and Videos.
+  <div align="center">
+  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Imag gallery.png" style="background-color: black" alt="gallery">
+  </div>
+  <div align="center">
+  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Video section.png" style="background-color: black" alt="icons">
+  </div>
+
+### Could Haves
+  - There is still a few features that could be added, namely:
+     - Pocket Vet, a direkt chat service with registered Vets.
+     - A merchandise section for petfood and UNleash products.
+     - A live chat service for members.
+  
+# Technology Used
+
+### Languages
+
+
+### Frameworks
+### Libraries
+### Platforms
+### Other Tools
+   
 
 
     
