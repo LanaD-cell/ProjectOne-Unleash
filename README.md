@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="../ProjectOne-Unleash/assets/images/readmehero.png" style="background-color: black" alt="Unleash">
+  <img src="assets/images/Logo-and-Header.png" style="background-color: black" alt=Unleash Logo">
 </div>
+
+
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
 
 For my first project I chose to stick to a topic that is relevant in my own life. I have followed the basic requirements for the project as there are many functions that I, as a user of the site UNleash, would love to have on the site. As a dog owner, I understand the challenge of finding new routes to walk. Dog owners also would love to take their companions out with them and that is why dogfriendly restaurants, hotels etc would be good to feature here. The social aspect is also very important. Creating a site for likeminded people to meet up. 
