@@ -132,17 +132,37 @@ The last update to this file was: ** December 30, 2024**
 
 
 # Features
+
+ <div align="center">
+  <img src="assets/documentation/Screenshots/Tablet and mobile view.jpg" style="background-color: black" alt="tablet and mobile view">
+  </div>
+
 ## Functionality
+
+<div align="center">
+  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Homepage lg.png" style="background-color: black" alt="icons">
+  </div>
+  <br>
+
+  <div align="center">
+  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Homepage reasons.png" style="background-color: black" alt="icons">
+  </div>
+
 
    - The Navbar is responsive, featuring 3 elements. 
    - On smaller devices, the elements form a burgermenu.
    - The burgericon activates drop down nav menu.
    - The navbar and footer sticks to the top and bottom respectively.
 
-   <div align="center">
-  <img src="assets/documentation/Screenshots/Tablet and mobile view.jpg" style="background-color: black" alt="tablet and mobile view">
+  
+
+<div align="center">
+  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Contact form.png" style="background-color: black" alt="tablet and mobile view">
   </div>
 
+- A simple Contact page was used, although functionality is not active yet as 
+ no JavaScript added.
+- The form is fully responsive.
 
 ### Additional Features
 
@@ -154,6 +174,12 @@ The last update to this file was: ** December 30, 2024**
   <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Video section.png" style="background-color: black" alt="icons">
   </div>
 
+  - Parkprofiles were created using [Bootstrap5](https://getbootstrap.com/), adding Iframe maps and buttons.
+  <div align="center">
+  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Park profile cards.png" style="background-color: black" alt="icons">
+  </div>
+
+
 ### Could Haves
   - There is still a few features that could be added, namely:
      - Pocket Vet, a direkt chat service with registered Vets.
@@ -163,14 +189,32 @@ The last update to this file was: ** December 30, 2024**
 # Technology Used
 
 ### Languages
-
+ - [HTML](w3.org/standards/webdesign/htmlcss)
+    - Page markup
+ - [CSS](w3.org/standards/webdesign/htmlcss)
+    - Styling
 
 ### Frameworks
+ - [Bootstrap5](https://getbootstrap.com/)
+ 
 ### Libraries
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Google Maps](https://www.google.com/maps)
+  
 ### Platforms
-### Other Tools
-   
+- [Github](https://github.com/)
+   - Storing my Projects
+- [Gitpod](https://gitpod.io/)
+   - Project development platform
 
+### Other Tools
+- [Balsamiq](https://balsamiq.com/)
+    - Create wireframes.
+- [Favicon Generator](https://www.favicon-generator.org/)
+    - Favicons
+   
+   
 
     
      
