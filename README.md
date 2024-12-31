@@ -12,17 +12,17 @@ The last update to this file was: ** December 30, 2024**
 
 ## Table of Content 
 1. <details open>
-   <summary><a href="User Experience">User Experience</a></summary>
+   <summary><a href="#user-Experience">User Experience</a></summary>
 
    <ul> 
    <li>
     <summary><a href="#users">Users</a></summary>
     
-    - [Target Users](#targetusers)
-    - [Target Customers](#targetcustomers)
+    - [Target Users](#target-users)
+    - [Target Customers](#target-customers)
 
-   <li><details> 
-   <summary><a href="#visualelements">Visual Elements</a></summary>
+   <li>
+   <summary><a href="#visual-elements">Visual Elements</a></summary>
     
     - [Wireframes](#wireframes)
     - [Fonts](#fonts)
@@ -37,37 +37,37 @@ The last update to this file was: ** December 30, 2024**
    </details>
 
 2. <details open>
-   <summary><a href="Features">Features</a></summary>
+   <summary><a href="features">Features</a></summary>
 
-    - [Functionality](#function)
-    - [Additional Features](#additionalfeatures)
-    - [Could Haves](#couldhaves)
+    - [Functionality](#functionality)
+    - [Additional Features](#additional-features)
+    - [Could Haves](#could-haves)
    </details>
 
   3. <details open>
-     <summary><a href="technology used">Technology Used</a></summary>
+     <summary><a href="#technology-used">Technology Used</a></summary>
 
       - [Languages](#languages)
       - [Frameworks](#frameworks)
       - [Libraries](#libraries)
       - [Platforms](#platforms)
-      - [Other Tools](#othertools)
+      - [Other Tools](#other-tools)
    
    </details>
   
 4. <details open>
-   <summary><a href="Testing">Testing</a></summary>  
+   <summary><a href="#testing">Testing</a></summary>  
 
    - [Validation](#validation)
-   - [General Testing](#generaltesting)
-   - [Desktop testing](#desktoptesting)
+   - [General Testing](#general-testing)
+   - [Desktop testing](#desktop-testing)
 
  </details>
 
-5. <summary><a href="Deployment">Deployment</a></summary>
+5. <summary><a href="<#deployment">Deployment</a></summary>
 
 6. <details open>
-   <summary><a href="Credits and Contact">Credits and Content</a></summary>
+   <summary><a href="#credits-and-contact">Credits and Content</a></summary>
    
    - [Content](#content)
    - [Credits](#credits)
@@ -77,7 +77,6 @@ The last update to this file was: ** December 30, 2024**
 # User Experience
 ## Users 
 ### Target Users
-   ### The target User for UN<em>leash</em> is:
   - Someone who wants to find safe walking trails and parks.
   - Someone who is interested in seeing different parks in their city.
   - Someone who wants to connect with likeminded people.
