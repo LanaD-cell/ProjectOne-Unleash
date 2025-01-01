@@ -241,11 +241,20 @@ The last update to this file was: ** December 30, 2024**
   - External links open in a new tab.
   - Tested that my site works on a other browser, Microsoft Edge.
   - I ran my code through W3C Validator and W3C CSS Validator to test.
+  - Ran my code through Lighthouse for Mobile.
+   <div align="center">
+  <img src="assets/images/lighthouse mobile.png" style="background-color: black" alt="icons">
+  </div>
   
 
 ### Desktop testing
   - Testing was mainly performed using [Google Devtools](https://developer.chrome.com/docs/devtools)
   - The link was sent to friends to test on their devices.
+  - Ran my site through Lighthouse
+  <div align="center">
+  <img src="assets/images/lighthouse desktop.png" style="background-color: black" alt="icons">
+  </div>
+  
 
 # Deployment
  -  The following link can be used to view the deployed site,[Github Deployment](https://lanad-cell.github.io/ProjectOne-Unleash/)
