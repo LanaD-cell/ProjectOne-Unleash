@@ -239,6 +239,9 @@ The last update to this file was: ** December 30, 2024**
   - The site was sent to friends for feedback and testing.
   - A Code Institute Template was used for the basis of my site.
   - External links open in a new tab.
+  - Tested that my site works on a other browser, Microsoft Edge.
+  - I ran my code through W3C Validator and W3C CSS Validator to test.
+  
 
 ### Desktop testing
   - Testing was mainly performed using [Google Devtools](https://developer.chrome.com/docs/devtools)
@@ -250,6 +253,21 @@ The last update to this file was: ** December 30, 2024**
 ### Bugs and Fixes
  - When I deployed my project the first time, I realised I had some alignment issues, which I adjusted on Gitpod.
  - I also had some issues with the images I used in my README.md file, that was due to the path being incorrect.  
+ - Found one error in W3C CSS Validator which I can not fix.
+<div align="center">
+  <img src="assets/images/error css.png" style="background-color: black" alt="css error">
+  </div>
+
+ - One warning on the W3C Validator was not fixed, due to how I added my Hero Image in Index.html.
+<div align="center">
+  <img src="assets/images/error index html.png" style="background-color: black" alt="css error">
+  </div>  
+
+ - The 2 errors on join the pack.html is contained in Bootstrap code used. I am unsure how to fix this without changing the Bootstrap code. 
+<div align="center">
+  <img src="assets/images/jointhepack error.png" style="background-color: black" alt="css error">
+  </div>    
+
 
 # Contact and Content
    
