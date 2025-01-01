@@ -121,19 +121,24 @@ The last update to this file was: ** December 30, 2024**
   </div>
 
   - The images used follow the theme of playfullness and are centered around strong Dog imagery.
+  - The members can share their feedback "visually" of the restaurants and parks promoted on the site.  
   - All images are of a high quality and found on [Pexel](https://www.pexels.com/) and [Freepik](https://www.freepik.com/).
 
 
    <div align="center">
   <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Video section.png" style="background-color: black" alt="UNleash picture">
   </div>
-   ### Videos
+
+### Videos
+  
    - All videos are of a high quality and found on [Pexel](https://www.pexels.com/)
    - The videos do not auto play and sound is not initiated until viewed. 
+   - This ection offers the members of our site to share personal videos to strengthen the community feeling of the site.
+   - Prospective members can also see what the members posted and see what the parks look like that have been promoted on our site.
 
 ### Icons
    
-   - The socialmedia lIcons are linked to each sites homepage.
+   - The socialmedia Icons are linked to each sites homepage.
 
    <div align="center">
   <img src="assets/images/icons.jpg" style="background-color: black" alt="icons">
