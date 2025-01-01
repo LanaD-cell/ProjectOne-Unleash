@@ -1,7 +1,10 @@
 <div align="center">
-  <img src="assets/images/Logo-and-Header.png" style="background-color: white" alt=Unleash Logo">
+  <img src="assets/images/Logo-and-Header.png" style="background-color: white" alt="Unleash Logo">
 </div>
 
+<div align="center">
+  <img src="assets/images/Screenshot (47).png" style="background-color: black" alt="am I responsive">
+</div>
 
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
 
