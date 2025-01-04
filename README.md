@@ -85,14 +85,15 @@ The last update to this file was: ** 1 January 2025**
 # User Experience
 ## Users 
 ### Target Users
-  - Someone who wants to find safe walking trails and parks.
-  - Someone who is interested in seeing different parks in their city.
-  - Someone who wants to connect with likeminded people.
-  - Someone that enjoys taking their dog everywhere with them. 
+  - Dog owners seeking safe and enjoyable walking trails and parks.
+  - Individuals interested in exploring new dog-friendly locations in their city.
+  - People eager to connect with like-minded individuals and form a community.
+  - Dog lovers who enjoy bringing their pets along to various venues.
 
 ### Target Customers
-   - Companies/Businesses that want to advertise their restaurant, campground 
-   and pet related services.
+   - Pet-friendly restaurants
+   - Dog-friendly hotels
+   - Campgrounds and pet-centric services
 
 ### Visual Elements
    #### Wireframes 
@@ -116,7 +117,7 @@ The last update to this file was: ** 1 January 2025**
   
 ### Colors
  
-  - The colors were chosed from colorpallets best recommended for Petwebsites, general mix found on google that I mixed for the desired effect.
+  - The color palette was selected from recommendations for pet-related websites, creating a warm and welcoming aesthetic. The color scheme is both playful and functional, designed to appeal to dog owners.
   
    <div align="center">
   <img src="assets/images/colors.jpg" style="background-color: black" alt="UNleash picture">
@@ -176,10 +177,9 @@ The last update to this file was: ** 1 January 2025**
   </div>
 
 
-   - The Navbar is responsive, featuring 3 elements. 
-   - On smaller devices, the elements form a burgermenu.
-   - The burgericon activates drop down nav menu.
-   - The navbar and footer sticks to the top and bottom respectively.
+   - Responsive Navbar: The navigation bar adjusts according to screen size, with a burger menu appearing on smaller devices.
+   - Responsive Footer: The footer remains fixed at the bottom of the page, improving site navigation.
+   - Contact Form: A simple contact form is provided, though the functionality is not yet active as JavaScript has not been implemented.
 
   
 
