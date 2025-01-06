@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="assets/images/Logo-and-Header.png" style="background-color: #ffffff" alt="Unleash Logo">
-</div>
-
-<div align="center">
   <img src="assets/images/Screenshot (47).png" style="background-color: black" alt="am I responsive">
 </div>
 
