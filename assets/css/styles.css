@@ -162,7 +162,7 @@ em {
 #reasons h2 {
 
     margin-bottom: 20px;
-    padding-left: 50px;
+    padding-left: 20px;
     text-align: center;
     font-size: 280%;
     color: white;
@@ -398,18 +398,8 @@ footer {
 }
 
 /* Thank you page*/
-
-.thank-you-container {
-    margin: 0 auto;
-    max-width: 500px;
-    padding: 0 4em;
-}
-.thank-you-box {
-    background: #B6FFCD;
-    color: #000;
-    padding: 1em 0.5em;
-    border-radius: 5px;
-    text-align: center;
+#thankyou.card {
+    background-color: #2f556b;
 }
 .return-black {
    margin: 20px 0;
