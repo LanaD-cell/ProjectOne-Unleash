@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/Screenshot (47).png" style="background-color: black" alt="am I responsive">
+  <img src="assets/documentation/screenshots/on-all-screens.png" style="background-color: black" alt="am I responsive">
 </div>
 
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
@@ -115,13 +115,13 @@ The last update to this file was: ** 1 January 2025**
    #### Wireframes 
    - Wireframes were produced as layout guides for the project.
    <div align="center">
-  <img src="assets/documentation/wireframes/Homepage.png" style="background-color: black" alt="Wireframe Homepage">
+  <img src="assets/documentation/wireframes/homepage.png" style="background-color: black" alt="Wireframe Homepage">
 </div>
 <div align="center">
-  <img src="assets/documentation/wireframes/Join the Pack.png" style="background-color: black" alt="Wireframe Join the pack">
+  <img src="assets/documentation/wireframes/parks.png" style="background-color: black" alt="Wireframe Join the pack">
 </div>
 <div align="center">
-  <img src="assets/documentation/wireframes/Parks.png" style="background-color: black" alt="Wireframe Parks">
+  <img src="assets/documentation/wireframes/join-the-pack.png" style="background-color: black" alt="Wireframe Parks">
 </div>
 
  
@@ -149,10 +149,6 @@ The last update to this file was: ** 1 January 2025**
   - The members can share their feedback "visually" of the restaurants and parks promoted on the site.  
   - All images are of a high quality and found on [Pexel](https://www.pexels.com/) and [Freepik](https://www.freepik.com/).
 
-
-   <div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Video section.png" style="background-color: black" alt="UNleash picture">
-  </div>
 
 ### Videos
   

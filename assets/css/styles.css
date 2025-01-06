@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -233,6 +233,8 @@ em {
     text-align: center;
     color: white;
 }
+
+
 .container-about {
     width: 100%;
     margin: 80px auto;
@@ -291,7 +293,6 @@ main#parks-section {
     color: white;
 
 }
-
 
 /* Google maps */
 .google-maps {
@@ -396,7 +397,27 @@ footer {
     width: 100%;
 }
 
+/* Thank you page*/
 
+.thank-you-container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 4em;
+}
+.thank-you-box {
+    background: #B6FFCD;
+    color: #000;
+    padding: 1em 0.5em;
+    border-radius: 5px;
+    text-align: center;
+}
+.return-black {
+   margin: 20px 0;
+   text-align: center;
+   width: 100%;
+   float: left;
+  color: black;
+}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
