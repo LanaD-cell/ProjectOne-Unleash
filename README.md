@@ -151,7 +151,9 @@ The last update to this file was: ** 1 January 2025**
 
 
 ### Videos
-  
+  <div align="center">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/video-section.png" style="background-color: black" alt="UNleash picture">
+  </div>
    - All videos are of a high quality and found on [Pexel](https://www.pexels.com/)
    - The videos do not auto play and sound is not initiated until viewed. 
    - This section offers the members of our site to share personal videos to strengthen the community feeling of the site.
@@ -174,18 +176,13 @@ The last update to this file was: ** 1 January 2025**
 # Features
 
  <div align="center">
-  <img src="assets/documentation/Screenshots/Tablet and mobile view.jpg" style="background-color: black" alt="tablet and mobile view">
+  <img src="assets/documentation/screenshots/tablet-and-mobile view.jpg" style="background-color: black" alt="tablet and mobile view">
   </div>
 
 ## Functionality
 
-<div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Homepage lg.png" style="background-color: black" alt="icons">
-  </div>
-  <br>
-
   <div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Homepage reasons.png" style="background-color: black" alt="icons">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/homepage-reasons.png" style="background-color: black" alt="icons">
   </div>
 
 
@@ -196,7 +193,7 @@ The last update to this file was: ** 1 January 2025**
   
 
 <div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Contact form.png" style="background-color: black" alt="tablet and mobile view">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/contactform.png" style="background-color: black" alt="tablet and mobile view">
   </div>
 
 - A simple Contact page was used, although functionality is not active yet as 
@@ -208,17 +205,13 @@ The last update to this file was: ** 1 January 2025**
   - A Members gallery of Photos and Videos.
   - As a dog owner, I know that there are few things people like more that taking and sharing pictures of their animals. This feature allows people to connect and share.
   <div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Imag gallery.png" style="background-color: black" alt="gallery">
-  </div>
-  <div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Video section.png" style="background-color: black" alt="icons">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/image-gallery.png" style="background-color: black" alt="gallery">
   </div>
 
-  - Parkprofiles were created using [Bootstrap5](https://getbootstrap.com/), adding Iframe maps and buttons.
+   - Parkprofiles were created using [Bootstrap5](https://getbootstrap.com/), adding Iframe maps and buttons.
   <div align="center">
-  <img src="assets/documentation/Screenshots/Project-Unleash screenshots/Park profile cards.png" style="background-color: black" alt="icons">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/park-profile-cards.png" style="background-color: black" alt="icons">
   </div>
-
 
 ### Could Haves
   - There is still a few features that could be added, namely:
@@ -270,7 +263,7 @@ The last update to this file was: ** 1 January 2025**
   - I ran my code through W3C Validator and W3C CSS Validator to test.
   - Ran my code through Lighthouse for Mobile.
    <div align="center">
-  <img src="assets/images/lighthouse mobile.png" style="background-color: black" alt="icons">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/lighthouse-mobile.png" style="background-color: black" alt="icons">
   </div>
   
 
@@ -279,12 +272,18 @@ The last update to this file was: ** 1 January 2025**
   - The link was sent to friends to test on their devices.
   - Ran my site through Lighthouse
   <div align="center">
-  <img src="assets/images/lighthouse desktop.png" style="background-color: black" alt="icons">
+  <img src="assets/documentation/screenshots/lighthouse-desktop.png" style="background-color: black" alt="icons">
   </div>
   
 
 # Deployment
- -  The following link can be used to view the deployed site,[Github Deployment](https://lanad-cell.github.io/ProjectOne-Unleash/)
+ - Log into [LanaD-cell](https://github.com/LanaD-cell)
+ - In "Popular repositories" click on ProjectOne-Unlease.
+ - On the left side of the page, under "Deployments", click on github-pages.
+ - A new page will open,(https://github.com/LanaD-cell/ProjectOne-Unleash/deployments/github-pages).
+ - At the top of the page, there will be a link for the deployment site.
+ - The following link can be used to view the deployed site,[Github Deployment](https://lanad-cell.github.io/ProjectOne-Unleash/)
+ - When clicked, the website will open on a new page.
   
 ### Bugs and Fixes
  - When I deployed my project the first time, I realised I had some alignment issues, which I adjusted on Gitpod.
