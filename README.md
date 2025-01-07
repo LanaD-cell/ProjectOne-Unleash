@@ -6,6 +6,10 @@ Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
 
 For my first project, I chose to focus on a topic that resonates personally with me. As a dog owner, I often encounter challenges in finding dog-friendly locations and routes for walks. This website, currently named UNleash, is designed to address these challenges by providing a platform where users can easily find information on dog-friendly establishments such as restaurants, parks, hotels, and nature trails. The site also aims to foster a community where like-minded dog owners can connect and share experiences, making it easier to discover new places to visit with their pets.
 
+<div align="center">
+  <img src="assets/documentation/screenshots/motivational.jpg" style="background-color: black" alt="icons">
+  </div>
+
 Dog owners often face difficulties when trying to find suitable places where they can take their dogs. It can be time-consuming and frustrating to identify dog-friendly venues, particularly when traveling to new areas. Additionally, when visiting parks or nature trails, it's not always clear whether the location is worth the trip or what amenities are available. UNleash solves this problem by providing consolidated, easily accessible information on dog-friendly destinations and user-driven reviews to help pet owners make informed decisions.
 
 Key Features that will expand in the future: 
@@ -189,6 +193,10 @@ The last update to this file was: ** 1 January 2025**
    - Responsive Navbar: The navigation bar adjusts according to screen size, with a burger menu appearing on smaller devices.
    - Responsive Footer: The footer remains fixed at the bottom of the page, improving site navigation.
    - Contact Form: A simple contact form is provided, though the functionality is not yet active as JavaScript has not been implemented.
+   - A thank you page was added, when the form and newsletter modal is submitted, a new page will open with a thank you message that contains a link to go back to the site.
+  <div align="center">
+  <img src="assets/documentation/screenshots/thankyou.png" style="background-color: black" alt="icons">
+  </div>
 
   
 
