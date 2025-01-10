@@ -94,7 +94,7 @@ nav {
 main {
     /* Make element take up surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    
 }
 
 /* Hero section */
@@ -113,7 +113,7 @@ main {
     font-size: 130%;
     position: absolute;
     bottom: 0;
-    width: 80%;
+    min-width: 80%;
     border-radius: 0 6px;
 }
 
@@ -223,7 +223,7 @@ em {
 #hero-parks {
     min-height: 400px;
     width: 100%;
-    background: url(../images/at-a-quarry.jpg) no-repeat center center / cover;
+    background: url(../images/tinified-quarry.jpg) no-repeat center center / cover;
     position: relative;
     border-bottom: 10px solid #ffa500;
 }
@@ -260,7 +260,7 @@ em {
 }
 
 .container-about p {
-    padding: 10px 5px;
+    padding: 15px;
     color: #3a3a3a;
     font-size: 30px;
     font-family: "Oswald", sans-serif;
@@ -450,7 +450,7 @@ footer {
     /* Main content*/
     main {
         /* Push main content down to accomodate larger header*/
-        margin-top: 79px;
+        
     }
 
     /* Hero */
