@@ -5,7 +5,7 @@
 Welcome to [Unleash](https://lanad-cell.github.io/ProjectOne-Unleash/)
 
 For my first project, I chose to focus on a topic that resonates personally with me. As a dog owner, I often encounter challenges in finding dog-friendly locations and routes for walks. This website, currently named UNleash, is designed to address these challenges by providing a platform where users can easily find information on dog-friendly establishments such as restaurants, parks, hotels, and nature trails. The site also aims to foster a community where like-minded dog owners can connect and share experiences, making it easier to discover new places to visit with their pets.
-
+"My inspiration"
 <div align="center">
   <img src="assets/documentation/screenshots/motivational.jpg" style="background-color: black" alt="icons">
   </div>
