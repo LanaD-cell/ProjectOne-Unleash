@@ -260,6 +260,15 @@ The last update to this file was: ** 1 January 2025**
 
 ### Validation
   - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+  <div align="center">
+  <img src="assets/documentation/screenshots/404-w3.png" style="background-color: black" alt="icons">
+  </div><div align="center">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/jointhepack-w3.png" style="background-color: black" alt="icons">
+  </div><div align="center">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/index-w3.png" style="background-color: black" alt="icons">
+  </div><div align="center">
+  <img src="assets/documentation/screenshots/project-unleash-screenshots/parks-w3.png" style="background-color: black" alt="icons">
+  </div>
   - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### General Testing
